@@ -20,7 +20,7 @@ function viewCart() {
  if (cart == 0) {
    return ('Your shopping cart is empty.')}
    else if ( cart == 1){
-     return (`In your cart, you have ${itemName[0]} at $${itemPrice[0]}.`)
+     return (`In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`)
    } else if (cart == 2){
      return( `In your cart, you have ${itemName[0]} at $${itemPrice[0]}, and ${itemName[1]} at $${itemPrice[1]}.`)
    } else {
