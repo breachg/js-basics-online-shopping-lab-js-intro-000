@@ -45,12 +45,12 @@ function total() {
   // write your code here
   var cartItemPrice = [];
   var totalPrice = 0
-  
+
   for(var i = 0; i < cart.length; i++) {
     var itemPrice = cart[i][Object.keys(cart[i])]
       cartItemPrice.push(itemPrice)
     }
-  
+
   for (var a = 0; a < cartItemPrice.length; a++) {
     totalPrice = cartItemPrice[a]+=totalPrice
   }
